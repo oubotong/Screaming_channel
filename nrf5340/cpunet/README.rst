@@ -26,7 +26,6 @@ The sample supports the following development kits:
    :header: heading
    :rows: nrf5340dk_nrf5340_cpunet
 
-.. note::
    On nRF5340 DK, the sample is designed to run on the network core.
 
 
