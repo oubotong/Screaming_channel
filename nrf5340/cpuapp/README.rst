@@ -1,6 +1,6 @@
-.. _nrf5340_empty_app_core:
+.. _nrf5340_app_core:
 
-nRF5340: Empty firmware for application core
+nRF5340: Bitcount firmware for application core inside TEE
 ############################################
 
 .. contents::
