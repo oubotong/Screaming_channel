@@ -15,7 +15,7 @@ Overview
 The sample has minimal Zephyr configuration: no multithreading, no clock, no MPU, no device drivers.
 It does the following things:
 
-* In the :c:func:`main` function of the sample:
+* In the `main` function of the sample:
 
   * Wait 10s to ensure network core has already started
   * Run simple bitcount example as the benchmark
@@ -32,24 +32,14 @@ The sample supports the following development kit:
 Building and running
 ********************
 
-.. |sample path| replace:: :file:`samples/nrf5340/
+Put this folder under the path `samples/nrf5340` in the nrf-connect-sdk
+
+Then use command to build it: `west build -b nrf5340dk_nrf5340cpuapp`
 
 Testing
 =======
-1. Program this sample to the application core.
-#. Program Zephyr's :ref:`zephyr:blinky-sample` sample to the network core.
-#. Observe the LEDs on the kit.
+1. Program this sample to the application core by `west flash`
+2. Program cpunet firmware on the network core
+3. Turn on SDR and tune to 2.336Ghz to see the changes
 
-Dependencies
-************
 
-This sample uses the following `nrfx`_ dependencies:
-
-* ``nrfx/nrf.h``
-* ``nrfx/nrfx.h``
-
-In addition, it uses the following Zephyr libraries:
-
-* :ref:`zephyr:kernel_api`:
-
-  * ``include/init.h``
