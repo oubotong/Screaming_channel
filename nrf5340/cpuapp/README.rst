@@ -18,7 +18,7 @@ It does the following things:
 * In the `main` function of the sample:
 
   * Wait 10s to ensure network core has already started
-  * Run simple bitcount example as the benchmark
+  * Run simple bitcount example as the benchmark and loop it for 20 times.
 
 Requirements
 ************
@@ -32,7 +32,7 @@ The sample supports the following development kit:
 Building and running
 ********************
 
-Put this folder under the path `samples/nrf5340` in the nrf-connect-sdk
+Put this folder under the path ``samples/nrf5340` in the nrf-connect-sdk``
 
 Then use command to build it: `west build -b nrf5340dk_nrf5340cpuapp`
 
