@@ -34,11 +34,11 @@ Building and running
 
 Put this folder under the path ``samples/nrf5340` in the nrf-connect-sdk``
 
-Then use command to build it: `west build -b nrf5340dk_nrf5340cpuapp`
+Then use command to build it: ``west build -b nrf5340dk_nrf5340cpuapp``
 
 Testing
 =======
-1. Program this sample to the application core by `west flash`
+1. Program this sample to the application core by ``west flash``
 2. Program cpunet firmware on the network core
 3. Turn on SDR and tune to 2.336Ghz to see the changes
 
