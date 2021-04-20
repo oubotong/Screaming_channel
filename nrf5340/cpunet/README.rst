@@ -25,9 +25,7 @@ The sample supports the following development kits:
 .. table-from-rows:: /includes/sample_board_rows.txt
    :header: heading
    :rows: nrf5340dk_nrf5340_cpunet
-
    On nRF5340 DK, the sample is designed to run on the network core.
-
 
 Building and running
 ********************
