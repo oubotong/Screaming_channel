@@ -15,17 +15,10 @@ Overview
 The sample has minimal Zephyr configuration: no multithreading, no clock, no MPU, no device drivers.
 It does the following things:
 
-* During system initialization:
-
-  * It allows the network core to access GPIO pins for LEDs and buttons.
-    If more pins are required, you can add them to the :c:func:`network_gpio_allow` function.
-  * It starts the network core.
-    This is not done directly in the source code of the sample, but internally by Zephyr.
-
 * In the :c:func:`main` function of the sample:
 
-  * The application RAM is powered off to reduce power consumption.
-  * The application core is suspended indefinitely.
+  * Wait 10s to ensure network core has already started
+  * Run simple bitcount example as the benchmark
 
 Requirements
 ************
@@ -39,9 +32,7 @@ The sample supports the following development kit:
 Building and running
 ********************
 
-.. |sample path| replace:: :file:`samples/nrf5340/empty_app_core`
-
-.. include:: /includes/build_and_run.txt
+.. |sample path| replace:: :file:`samples/nrf5340/
 
 Testing
 =======
