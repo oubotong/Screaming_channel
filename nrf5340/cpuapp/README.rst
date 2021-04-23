@@ -31,8 +31,9 @@ The sample supports the following development kit:
 
 Building and running
 ********************
+Before building this example, you need to install `nrf-connect-sdk(https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/gs_installing.html)` first
 
-Put this folder under the path ``samples/nrf5340` in the nrf-connect-sdk``
+Put this folder under the path ``nrf/samples/nrf5340` in the nrf-connect-sdk``
 
 Then use command to build it: ``west build -b nrf5340dk_nrf5340cpuapp``
 
