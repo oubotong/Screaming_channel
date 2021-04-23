@@ -31,7 +31,7 @@ The sample supports the following development kit:
 
 Building and running
 ********************
-Before building this example, you need to install `nrf-connect-sdk(https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/gs_installing.html)` first
+Before building this example, you need to install `nrf-connect-sdk (https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/gs_installing.html)` first
 
 Put this folder under the path ``nrf/samples/nrf5340` in the nrf-connect-sdk``
 
